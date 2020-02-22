@@ -1,0 +1,90 @@
+
+.main-list .btm_tit {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.main-list {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.main-list .item {
+    margin-bottom: 15px;
+    width: 165px;
+}
+
+.main-list .item:nth-last-child(1):after,.main-list .item:nth-last-child(2):after {
+    visibility: hidden;
+}
+
+.main-list .item .top {
+    overflow: hidden;
+    position: relative;
+    border-radius: 2px;
+}
+
+.main-list .item .btm {
+    padding: 15px 0 10px;
+}
+
+.main-list .item .btm-b {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+}
+
+.main-list .item .btm-info {
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.main-list .btm_tit {
+    height: 36px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    overflow: hidden;
+    display: box;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: #2a2a2a;
+}
+
+.main-list .btm_tit .tag {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 7.5px;
+    margin-right: 10px;
+    font-size: 10px;
+    text-align: center;
+    line-height: inherit;
+    color: #fff;
+    border-radius: 1px;
+}
+
+.main-list .btm_price .old {
+    display: none;
+}
+
+.main-list .btm_saled {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #b4b4b4;
+}

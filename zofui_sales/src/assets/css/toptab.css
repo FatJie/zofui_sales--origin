@@ -1,0 +1,102 @@
+.top_select{
+    width: 100%;
+    left: 0;
+    position: relative;
+    background-color: #fff;
+    z-index: 7;
+    border-bottom: 1px solid #f7f7f7;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+.top_select .sitem{
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+
+}
+.top_select .sitem .van-icon{
+    vertical-align:middle;
+    font-size: 14px;
+}
+.top_select .sitem .van-icon-apps-o{
+    font-size: 12px;
+    margin-top: -2px;
+}
+.top_select .zan-icon-arrow{
+    transform: rotate(90deg);
+}
+.actsort{
+    font-size: 16.5px!important;
+    font-weight: bold;
+}
+.scroll{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 7;
+}
+.main-list{
+   
+}
+.ohuadhead{
+    position: relative;
+    z-index: 6;
+}
+.selecttar_body{
+    top: 84px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    left: 0;
+    max-height:300px;
+    overflow-y: scroll;
+}
+.selecttar_body .selecttar_item{
+    padding: 15px;
+    font-size: 12px;
+    border-bottom: 0.5px solid #f7f7f7;
+    color: #999;
+}
+.list-none{
+    margin-top: 100px;
+}
+.list-loadmore{
+    margin-top: 75px;
+}
+.animaterot{
+    animation:myrotat 0.5s;
+    -webkit-animation:myrotat 0.5s;
+    animation-fill-mode : forwards;
+}
+@keyframes myrotat
+{
+    from {transform: rotate(90deg);}
+    to {transform: rotate(270deg);}
+}
+
+@-webkit-keyframes myrotat
+{
+    from {transform:  rotate(90deg);}
+    to {transform: rotate(270deg);}
+}
+
+.animaterotback{
+    animation:myrotatback 0.5s;
+    -webkit-animation:myrotatback 0.5s;
+    animation-fill-mode : forwards;
+}
+@keyframes myrotatback
+{
+    from {transform: rotate(270deg);}
+    to {transform: rotate(90deg);}
+}
+
+@-webkit-keyframes myrotatback
+{
+    from {transform:  rotate(270deg);}
+    to {transform: rotate(90deg);}
+}
